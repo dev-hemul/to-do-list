@@ -31,7 +31,7 @@ const CreateTodoField = () => {
 			/>
 			<button
 				onClick={handleAddTodo}
-				className="ml-2 text-white cursor-pointer bg-blue-600 hover:bg-blue-700 px-3 py-1 text-xs rounded-full shadow-md transform transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50
+				className="ml-2 text-white cursor-pointer bg-blue-600 hover:bg-blue-700 px-7 py-4 text-xs rounded-full shadow-md transform transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50
   sm:px-6 sm:py-3 sm:text-base sm:shadow-lg sm:hover:scale-105"
 			>
 				Add

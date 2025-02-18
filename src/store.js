@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import taskReducer from "./slice/taskListSlice.js"; // Путь к слайсу
+import taskReducer from "./slices/taskListSlice.js";
 
 const store = configureStore({
   reducer: {
-    taskList: taskReducer, // Подключаем слайс задач в reducer
+    taskList: taskReducer,
   },
 });
 

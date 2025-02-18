@@ -4,7 +4,7 @@ import './index.css'
 import Home from './components/screens/Home/Home'
 import Layout from "./components/layout/Layout";
 import {Provider} from "react-redux";
-import {store} from "./store";
+import store from "./store";
 
 createRoot(document.getElementById('root')).render(
 	<StrictMode>
